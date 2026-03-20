@@ -1,14 +1,14 @@
-# 🔽 Números del 10 al 1 - Multilenguaje (Pascal + C++)
+# 🔽 Números del 10 al 1 - Multilenguaje (Pascal + C++ + Python)
 
 ## 📌 Descripción
 
-Este proyecto es un programa simple desarrollado en **Pascal** y **C++** que imprime en pantalla los números del **10 al 1** en orden descendente.
+Este proyecto es un programa simple desarrollado en **Pascal**, **C++** y **Python** que imprime en pantalla los números del **10 al 1** en orden descendente.
 
 ---
 
 ## ⚙️ Funcionamiento
 
-Ambas versiones del programa:
+Todas las versiones del programa:
 
 1. Usan un bucle para recorrer del 10 al 1.
 2. Imprimen cada número en la misma línea.
@@ -46,6 +46,17 @@ int main() {
 
 ---
 
+## 💻 Código en Python
+
+```python
+for i in range(10, 0, -1):
+    print(i, end=' ')
+
+print()
+```
+
+---
+
 ## ▶️ Ejecución
 
 ### Pascal (Free Pascal)
@@ -60,6 +71,12 @@ fpc numero10al1.pas
 ```bash
 g++ numero10al1.cpp -o numero10al1
 ./numero10al1
+```
+
+### Python
+
+```bash
+python numero10al1.py
 ```
 
 ---
@@ -82,7 +99,7 @@ g++ numero10al1.cpp -o numero10al1
 
 ## 🚀 Futuras mejoras
 
-* Agregar más lenguajes (Python, Java… que se sume más gente al descenso 📉)
+* Agregar más lenguajes (Java, JavaScript… que esto ya es una bajada internacional 📉)
 * Permitir definir el rango dinámicamente
 * Versiones con funciones reutilizables
 
@@ -94,6 +111,7 @@ g++ numero10al1.cpp -o numero10al1
 /numero10al1
  ├── numero10al1.pas
  ├── numero10al1.cpp
+ ├── numero10al1.py
  └── README.md
 ```
 
